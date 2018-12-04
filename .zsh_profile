@@ -1,0 +1,42 @@
+##
+# Aliases
+
+alias zshconfig="vi ~/.zshrc"
+alias ohmyzsh="vi ~/.oh-my-zsh"
+alias public_key="cat ~/.ssh/id_rsa.pub"
+
+alias a="ls -la"
+alias b="cd .."
+alias c="clear"
+alias e="exit"
+alias wh="command which"
+alias reload="exec $SHELL -l"
+
+alias bi="bundle install --binstubs .bundle/bin"
+alias dp="bundle exec cap production deploy"
+alias ds="bundle exec cap staging deploy"
+alias dsa="bundle exec cap sandbox deploy"
+alias dqa="bundle exec cap qa deploy"
+alias ber="bundle exec rake"
+alias be="bundle exec"
+alias t="bin/rspec"
+
+alias v="vim"
+alias vc="vim ~/.vimrc"
+
+alias gs="grunt serve"
+
+alias m="git checkout master"
+alias qa="git checkout qa"
+alias dv="git checkout develop"
+alias gmd="git merge develop"
+alias gmm="git merge master"
+
+alias u="docker-compose up --no-recreate"
+alias s="docker-compose stop"
+alias i="docker-compose exec web zsh"
+
+##
+# Orbe
+
+alias orbe_rspec="be rspec spec shared/spec && say 'tests completed'"
