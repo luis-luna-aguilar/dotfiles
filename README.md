@@ -13,3 +13,7 @@ Personal dot files preferences.
 ### .zshrc
 
 - Using zsh with oh-my-zsh, so the file assumes it being installed.
+
+### .vimrc
+
+- The vim config uses Vundle, make sure to install it and run the plugins install. https://github.com/VundleVim/Vundle.vim

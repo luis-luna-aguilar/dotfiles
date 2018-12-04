@@ -1,19 +1,19 @@
 [user]
-	name = Luis Luna
-	email = luislunaaguilar@gmail.com
+  name = Luis Luna
+  email = luislunaaguilar@gmail.com
 
 [core]
-	editor = /usr/local/bin/vim
-	excludesfile = /Users/luis/.gitignore_global
+  editor = /usr/local/bin/vim
+  excludesfile = /Users/luis/.gitignore_global
 
 [status]
-	submoduleSummary = true
+  submoduleSummary = true
 
 [diff]
-	submodule = log
+  submodule = log
 
 [alias]
-	spull = !git pull && git submodule sync --recursive && git submodule update --init --recursive
+  spull = !git pull && git submodule sync --recursive && git submodule update --init --recursive
 
 [init]
-	templatedir = ~/.git-templates
+  templatedir = ~/.git-templates
